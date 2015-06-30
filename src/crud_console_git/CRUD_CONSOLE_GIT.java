@@ -5,17 +5,20 @@
  */
 package crud_console_git;
 
+import com.negocio.Persona;
+
 /**
  *
  * @author ricardotoledo
  */
 public class CRUD_CONSOLE_GIT {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        System.out.println("Hola Mundo");
+        System.out.println("INSERTAR");
+        Persona p=new Persona();
+        p.setNombre("RICARDO");
+        p.setApepat("TOLEDO");
+        p.setApemat("BARRIA");
+        p.setCrear();
     }
     
 }
